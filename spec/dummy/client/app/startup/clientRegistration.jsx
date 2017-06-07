@@ -8,7 +8,7 @@ import HelloWorldWithLogAndThrow from '../components/HelloWorldWithLogAndThrow';
 import HelloWorldES5 from '../components/HelloWorldES5';
 import HelloWorldApp from './HelloWorldApp';
 
-import ReduxApp from './ClientReduxApp';
+// import ReduxApp from './ClientReduxApp';
 import ReduxSharedStoreApp from './ClientReduxSharedStoreApp';
 import RouterApp from './ClientRouterApp';
 import PureComponent from '../components/PureComponent';
@@ -32,11 +32,11 @@ ReactOnRails.setOptions({
   traceTurbolinks: true,
 });
 
+// ReduxApp,
 ReactOnRails.register({
   HelloWorld,
   HelloWorldWithLogAndThrow,
   HelloWorldES5,
-  ReduxApp,
   ReduxSharedStoreApp,
   HelloWorldApp,
   RouterApp,
